@@ -5,4 +5,4 @@ metadata:
   namespace: default
 spec:
   interval: 5m
-  url: https://raw.githubusercontent.com/sanketswani/fluxcd-repo/main/helm-charts/portfolio
+  url: https://raw.githubusercontent.com/sanketswani/portfolio-fluxcd/main/helm-charts/portfolio
