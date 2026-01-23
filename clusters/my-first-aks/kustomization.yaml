@@ -4,8 +4,8 @@ kind: Kustomization
 resources:
   - helmrepository.yaml
 
-  - apps/test-flux/test-flux-default.yaml
-  - apps/test-flux/test-flux-ite.yaml
+  - ../apps/test-flux/test-flux-default.yaml
+  - ../apps/test-flux/test-flux-ite.yaml
 
-  - apps/portfolio/portfolio-default.yaml
-  - apps/portfolio/portfolio-ite.yaml
+  - ../apps/portfolio/portfolio-default.yaml
+  - ../apps/portfolio/portfolio-ite.yaml
