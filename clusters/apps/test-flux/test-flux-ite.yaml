@@ -1,8 +1,8 @@
 apiVersion: helm.toolkit.fluxcd.io/v2
 kind: HelmRelease
 metadata:
-  name: test-flux
-  namespace: ite
+  name: test-flux-ite
+  namespace: default
 spec:
   interval: 1m
   targetNamespace: ite
