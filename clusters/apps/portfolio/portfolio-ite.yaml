@@ -5,7 +5,7 @@ metadata:
   namespace: ite
 spec:
   interval: 1m
-
+  targetNamespace: ite
   chart:
     spec:
       chart: portfolio
