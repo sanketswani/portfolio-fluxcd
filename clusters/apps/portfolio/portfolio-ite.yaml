@@ -15,4 +15,5 @@ spec:
         name: portfolio-repo
         namespace: default
       valuesFiles:
+        - values.yaml
         - values-ite.yaml
