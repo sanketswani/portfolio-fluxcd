@@ -14,5 +14,5 @@ spec:
         kind: HelmRepository
         name: portfolio-repo
         namespace: default
-  valuesFiles:
-    - values-ite.yaml
+      valuesFiles:
+        - values-ite.yaml
