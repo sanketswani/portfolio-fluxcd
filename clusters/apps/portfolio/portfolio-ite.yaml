@@ -18,4 +18,4 @@ spec:
         - values.yaml
         - values-ite.yaml
   values:
-    environmentEnabled: false
+    environmentEnabled: true
