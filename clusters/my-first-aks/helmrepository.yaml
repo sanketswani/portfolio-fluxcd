@@ -7,6 +7,8 @@ spec:
   interval: 5m
   type: oci
   url: oci://sanketsacr.azurecr.io/helm
+  secretRef:
+    name: acr-creds
 ---
 apiVersion: source.toolkit.fluxcd.io/v1
 kind: HelmRepository
