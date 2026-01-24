@@ -5,8 +5,8 @@ metadata:
   namespace: default
 spec:
   interval: 5m
-  url: https://raw.githubusercontent.com/sanketswani/portfolio-fluxcd/main/helm-charts/portfolio
-
+  type: oci
+  url: oci://sanketsacr.azurecr.io/helm/portfolio
 ---
 apiVersion: source.toolkit.fluxcd.io/v1
 kind: HelmRepository
