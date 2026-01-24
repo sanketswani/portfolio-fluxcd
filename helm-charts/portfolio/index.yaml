@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   portfolio:
   - apiVersion: v2
+    appVersion: v3.2.3
+    created: "2026-01-24T10:50:30.090765207Z"
+    description: A Helm chart for Kubernetes
+    digest: 0aa98863d905065d5a95c138723ae9fa065644f5056ecc1155066bd17e76ce1b
+    name: portfolio
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/sanketswani/portfolio-fluxcd/main/helm-charts/portfolio/portfolio-1.0.8.tgz
+    version: 1.0.8
+  - apiVersion: v2
     appVersion: v3.2.2
-    created: "2026-01-24T10:13:58.540753301Z"
+    created: "2026-01-24T10:50:30.09056489Z"
     description: A Helm chart for Kubernetes
     digest: f844546175f683c2c175147d316e296cec68d227d0a19a83ab4cfbc80d343bc2
     name: portfolio
@@ -13,7 +23,7 @@ entries:
     version: 1.0.7
   - apiVersion: v2
     appVersion: v3.2.1
-    created: "2026-01-24T10:13:58.540531226Z"
+    created: "2026-01-24T10:50:30.090337272Z"
     description: A Helm chart for Kubernetes
     digest: 8f4cbed2c95c9530fe1bcadc48da2c0592805e62dd15a7156b5838a9ac863b90
     name: portfolio
@@ -23,7 +33,7 @@ entries:
     version: 1.0.6
   - apiVersion: v2
     appVersion: v3.2.0
-    created: "2026-01-24T10:13:58.540278465Z"
+    created: "2026-01-24T10:50:30.089915428Z"
     description: A Helm chart for Kubernetes
     digest: 826770c323f5eaf3886e9ff5784606c9841f982c3ad5d9e03854c0131f2b6eb5
     name: portfolio
@@ -33,7 +43,7 @@ entries:
     version: 1.0.5
   - apiVersion: v2
     appVersion: v3.1.4
-    created: "2026-01-24T10:13:58.540037415Z"
+    created: "2026-01-24T10:50:30.089691808Z"
     description: A Helm chart for Kubernetes
     digest: e9095aa74f621c410d8b611013aa28abc5108ff368437cccb10db0eaf6b338dd
     name: portfolio
@@ -43,7 +53,7 @@ entries:
     version: 1.0.4
   - apiVersion: v2
     appVersion: v3.1.1
-    created: "2026-01-24T10:13:58.539851017Z"
+    created: "2026-01-24T10:50:30.089495458Z"
     description: A Helm chart for Kubernetes
     digest: 5f34a0e4c7e94d5fb532f9a4f79000fcaea8f041a33152d808266582f3840476
     name: portfolio
@@ -53,7 +63,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: v3.1
-    created: "2026-01-24T10:13:58.539599498Z"
+    created: "2026-01-24T10:50:30.089256138Z"
     description: A Helm chart for Kubernetes
     digest: 6f1763b18f174d4ade07ce92a4ab89f9896d1d8a3a23fffe2e598f5eb8d5a9be
     name: portfolio
@@ -61,4 +71,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/sanketswani/portfolio-fluxcd/main/helm-charts/portfolio/portfolio-1.0.2.tgz
     version: 1.0.2
-generated: "2026-01-24T10:13:58.539239116Z"
+generated: "2026-01-24T10:50:30.088915216Z"
