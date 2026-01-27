@@ -8,28 +8,4 @@ resources:
   - ../apps/test-flux/test-flux-ite.yaml
 
   - ../apps/portfolio/portfolio-default.yaml
-  - ../apps/portfolio/portfolio-ite.yaml
-patches:
-  - patch: |-
-      apiVersion: v1
-      kind: ServiceAccount
-      metadata:
-        name: source-controller
-        namespace: flux-system
-        annotations:
-          azure.workload.identity/client-id: c256f679-2b5a-47c0-8409-90b55ec1cc16
-        labels:
-          azure.workload.identity/use: "true"      
-  - patch: |-
-      apiVersion: apps/v1
-      kind: Deployment
-      metadata:
-        name: source-controller
-        namespace: flux-system
-        labels:
-          azure.workload.identity/use: "true"
-      spec:
-        template:
-          metadata:
-            labels:
-              azure.workload.identity/use: "true"      
+  - ../apps/portfolio/portfolio-ite.yaml 
