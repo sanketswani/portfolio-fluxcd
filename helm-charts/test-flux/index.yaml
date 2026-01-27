@@ -3,7 +3,17 @@ entries:
   test-flux:
   - apiVersion: v2
     appVersion: v2.0.0
-    created: "2026-01-23T16:30:55.770133969Z"
+    created: "2026-01-27T08:28:05.787759953Z"
+    description: A Helm chart for Kubernetes
+    digest: 390f06bc9cc6baf94559d32ac1af75fec6e2e2774466b2fc9c6716b039c642c1
+    name: test-flux
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/sanketswani/portfolio-fluxcd/main/helm-charts/test-flux/test-flux-1.0.5.tgz
+    version: 1.0.5
+  - apiVersion: v2
+    appVersion: v2.0.0
+    created: "2026-01-27T08:28:05.787561894Z"
     description: A Helm chart for Kubernetes
     digest: 4792ba8656226b19724633bfda43bd107cd21d6cafc6acd49f2431aac4fcabc1
     name: test-flux
@@ -13,7 +23,7 @@ entries:
     version: 1.0.4
   - apiVersion: v2
     appVersion: v1.0.1
-    created: "2026-01-23T16:30:55.76991467Z"
+    created: "2026-01-27T08:28:05.787343388Z"
     description: A Helm chart for Kubernetes
     digest: 5c748648d150264513d218e29eb06369458b82837f62c6a5e426f2aeadc21913
     name: test-flux
@@ -23,7 +33,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: v1.0.0
-    created: "2026-01-23T16:30:55.769691122Z"
+    created: "2026-01-27T08:28:05.7871026Z"
     description: A Helm chart for Kubernetes
     digest: 7cdbd5e282862e778606870f9b8eef8be8f3b24a2ad787c555e01f7553bc1fb8
     name: test-flux
@@ -31,4 +41,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/sanketswani/portfolio-fluxcd/main/helm-charts/test-flux/test-flux-1.0.1.tgz
     version: 1.0.1
-generated: "2026-01-23T16:30:55.769294252Z"
+generated: "2026-01-27T08:28:05.786793756Z"
