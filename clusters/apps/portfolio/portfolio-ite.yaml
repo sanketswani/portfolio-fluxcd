@@ -26,4 +26,4 @@ spec:
       retries: 1
       strategy: rollback
   values:
-    environmentEnabled: false
+    environmentEnabled: true
