@@ -4,6 +4,7 @@ metadata:
   name: portfolio-ite
   namespace: default
 spec:
+  timeout: 5m0s
   interval: 1m
   targetNamespace: ite
   chart:
@@ -17,5 +18,12 @@ spec:
       valuesFiles:
         - values.yaml
         - values-ite.yaml
+  install:
+    remediation:
+      retries: 3
+  upgrade:
+    remediation:
+      retries: 1
+      strategy: rollback
   values:
     environmentEnabled: true
