@@ -12,7 +12,7 @@ spec:
       chart: portfolio
       version: "1.0.14"
       sourceRef:
-        kind: HelmRepository
+        kind: OCIRepository
         name: portfolio-repo
         namespace: default
       valuesFiles:
